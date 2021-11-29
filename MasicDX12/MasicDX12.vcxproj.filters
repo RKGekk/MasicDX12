@@ -309,11 +309,11 @@
     <ClCompile Include="nodes\scene_node_properties.cpp">
       <Filter>Source Files\nodes</Filter>
     </ClCompile>
-    <ClCompile Include="nodes\matrix_stack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="tools\dx12_utility.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="nodes\matrix_stack.cpp">
+      <Filter>Source Files\nodes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -629,29 +629,29 @@
     <ClInclude Include="nodes\scene_node_properties.h">
       <Filter>Header Files\nodes</Filter>
     </ClInclude>
-    <ClInclude Include="nodes\scene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nodes\matrix_stack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="nodes\alpha_scene_node.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nodes\ray_cast.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nodes\point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="graphics\vertex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="graphics\vertex_buffer.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\nodes</Filter>
     </ClInclude>
     <ClInclude Include="tools\dx12_utility.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\vertex.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="nodes\matrix_stack.h">
+      <Filter>Header Files\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="nodes\point.h">
+      <Filter>Header Files\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="nodes\ray_cast.h">
+      <Filter>Header Files\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="nodes\scene.h">
+      <Filter>Header Files\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\vertex_buffer.h">
+      <Filter>Header Files\graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
